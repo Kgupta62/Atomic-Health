@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 700vh;
+}
+#main{
+    position: relative;
+    overflow-x: hidden;
+}
+#page1{
+    position: absolute;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(0,0,215);
+}
+#nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 12vh;
+    top: 11%;
+}
+#nav>h1{
+    position: absolute;
+    left: 12%;
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+    
+}
+#side>h1{
+    font-size: 60px;
+    top: 20%;
+    left: 50%;
+    font-weight: 100;
+    position: absolute;
+    color: white;
+    transform: translate(-50%,-50%);
+    
+}
+
+#side{
+    position: relative;
+    position: absolute;
+     border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    left: 85%;
+    top: 15%;
+    border-color: transparent;
+    border: 2px solid aqua;    
+}
+#lef{
+    height: 100vh;
+    width: 55vw;
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.text1{
+     font-size: 120px;
+    font-weight: 400;
+    margin-left: 11vw;
+     overflow: hidden;
+    letter-spacing: 4px;
+}
+#lef>h1:nth-child(2){
+     font-style: italic;
+}
+#lef>h1:nth-child(3){
+    margin-bottom: 25vh;
+}
+.page2{
+    position: relative;
+    position: absolute;
+    top: 100%;
+    width: 100vw;
+
+}
+.downtext{
+   
+   font-size: 50px;
+   font-weight: 1;
+   color:rgba(0,0,215);
+   top: 10%;
+   width: 80vw;
+   margin-left: 10vw;
+   left: 10%;
+   margin-top:10vh ;
+   margin-bottom: 12vh;
+   line-height: 70px;
+   font-family: initial;
+   
+}
+
+.img1{
+    background-color: brown;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 20px;
+   overflow: hidden;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   margin-bottom: 10vh;
+}
+.img1>img{
+   width: 100%;
+    height: 100%;
+object-fit: cover;
+object-position: center;
+
+}
+
+.img1>h3{
+    font-size: 25px;
+    position: absolute;
+    font-weight: 100;
+    padding: 20px;
+    color: black;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    bottom: 28%;
+}
+
+.img1>h2{   
+    font-size: 30px;
+    position: absolute;
+    font-weight: 100;
+    padding: 20px;
+    color:black;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    bottom: 15%;
+}
+
+ 
+#qwe{
+    font-size: 50px;
+    font-weight: 100;
+    color:rgba(0,0,215);
+    width: 80vw;
+    margin-left: 10vw;
+    line-height: 70px;
+    font-family: initial;
+     margin-top: 150px;  
+}
+.newtext4{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    color:rgba(0,0,215);
+    width: 80vw;
+    margin-left: 10vw;
+    font-family: initial;
+      margin-bottom:100px; 
+}
+
+#bottomtext{
+    font-size: 31px;
+    margin-top: 30vh;
+    font-style: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10vw;
+    margin-bottom: 2vh;
+    color: rgb(0,0,215);
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    margin-bottom: 6vh;
+}
+#lastdiv{
+    position: absolute;
+    height: 70vh;
+    width: 80vw;
+    left: 10%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 10%;
+    position: relative;
+    
+}
+#lastdiv>h1{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 200px;
+    color: rgb(225, 84, 32);
+    margin-bottom: 30px;
+}
+
+#lastdiv>h2{
+   
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0,0,215);  
+
+
+}
+#q{
+    position: absolute;
+    
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0,0,215);
+    left: 30%;
+    top: 15%;
+
+}
+#qw{
+    position: absolute;
+   
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0,0,215);
+    left: 58%;
+    top: 15%;
+
+}
+
+#khtm{
+    height: 94vh;
+    width: 99vw;
+   border-top-left-radius: 100px;
+   border-top-right-radius: 100px;
+    background-color:rgb(0,0,215);
+     bottom: 0%; 
+     padding-left: 10%;
+     padding-top: 8%;
+     
+}
+#got{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+#chat{
+    color:white;
+    font-size: 90px;
+    margin-bottom: 50px;
+    
+}
+#khtm>h2{
+    color: rgba(11, 232, 232, 0.913);
+    font-size: 30px;
+    font-weight: 50;
+    margin-bottom: 60px;
+}
+#khtm>h3{
+ font-size: 25px;
+ font-weight: 50;
+ color: rgba(255, 255, 255, 0.795);
+}
